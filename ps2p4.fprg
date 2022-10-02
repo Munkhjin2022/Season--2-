@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-05 01:41:40 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA1OzAxOjM2OjU1IFBNOzI5Mzk="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA1OzAxOjQxOjQwIFBNOzE7MzAzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="t" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter last name&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;How many credits do you taken? &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="t" expression="(250 * c) + 100"/>
+            <output expression="&quot;The tuition is $250 per credit hours and added a $100 for lab fee, total is &quot; &amp; t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
