@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-23 05:43:15 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA0OzAyOjAwOjE2IFBNOzI5Mjc="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIyLTA2LTIzOzA1OjQzOjE1IFBNOzI7MzA1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="h" type="Real" array="False" size=""/>
+            <declare name="r" type="Real" array="False" size=""/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <declare name="w" type="Real" array="False" size=""/>
+            <declare name="m" type="Real" array="False" size=""/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter last name&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Enter daily hours&quot;" newline="True"/>
+            <input variable="h"/>
+            <output expression="&quot;Enter pay rate&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="p" expression="h * r"/>
+            <assign variable="w" expression="7 * p"/>
+            <assign variable="m" expression="4 * w"/>
+            <assign variable="a" expression="12 * m"/>
+            <output expression="&quot;Hello &quot; &amp; name" newline="True"/>
+            <output expression="&quot;The gross pay is &quot; &amp; p" newline="True"/>
+            <output expression="&quot;Weekly pay is &quot; &amp; w" newline="True"/>
+            <output expression="&quot;Monthly pay is &quot; &amp; m" newline="True"/>
+            <output expression="&quot;Annual pay is &quot; &amp; a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

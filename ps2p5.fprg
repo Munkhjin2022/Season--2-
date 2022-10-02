@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-05 01:54:12 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA1OzAxOjQ2OjU3IFBNOzI5NDI="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA1OzAxOjU0OjEyIFBNOzE7MzA0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p" type="Real" array="False" size=""/>
+            <declare name="d" type="Real" array="False" size=""/>
+            <declare name="da" type="Real" array="False" size=""/>
+            <declare name="A" type="Real" array="False" size=""/>
+            <output expression="&quot;How much is the item? &quot;" newline="True"/>
+            <input variable="p"/>
+            <output expression="&quot;Please enter the discount precintage &quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="da" expression="(p/100) * d"/>
+            <assign variable="A" expression="p - da"/>
+            <output expression="&quot;The discount amount is &quot; &amp; da" newline="True"/>
+            <output expression="&quot;The discounted price is &quot; &amp; A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

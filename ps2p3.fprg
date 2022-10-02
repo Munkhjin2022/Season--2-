@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-16 11:09:21 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA0OzAyOjM1OjQyIFBNOzI5MzQ="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIyLTA2LTE2OzExOjA5OjIxIFBNOzQ7MzA1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="L" type="Real" array="False" size=""/>
+            <declare name="W" type="Real" array="False" size=""/>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter the length of a rectangle&quot;" newline="True"/>
+            <input variable="L"/>
+            <output expression="&quot;Then please enter the width of a rectangle&quot;" newline="True"/>
+            <input variable="W"/>
+            <assign variable="a" expression="L * W"/>
+            <assign variable="c" expression="(2 * L) + (2 * W)"/>
+            <output expression="&quot;The Area is &quot; &amp; a" newline="True"/>
+            <output expression="&quot;The circumference is &quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

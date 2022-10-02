@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-04 02:13:03 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA0OzAxOjUyOjMwIFBNOzI5Mjk="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA0OzAyOjEzOjAzIFBNOzI7MzAzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="q" type="Real" array="False" size=""/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <declare name="pu" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter a quantity&quot;" newline="True"/>
+            <input variable="q"/>
+            <output expression="&quot;Then please enter price per unit&quot;" newline="True"/>
+            <input variable="pu"/>
+            <assign variable="p" expression="q * pu"/>
+            <output expression="&quot;The price is &quot; &amp; p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
