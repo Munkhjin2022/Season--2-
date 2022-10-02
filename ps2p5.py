@@ -1,6 +1,6 @@
 #comment input
 p = float(input("How much is the item? "))
-d = float(input("Please enter the discount precintage "))
+d = float(input("Please enter the discount percent? "))
 
 #process phase 
 da = (p/100) * d
